@@ -7,6 +7,7 @@ html , body{
     width:100%;
     height:100%;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 #nav{
     display: flex;
@@ -15,7 +16,7 @@ html , body{
     width: 100%;
     height:10%;
     gap:20px;
-    background-color:rgb(16, 18, 28);
+    background-color:rgb(10, 10, 16);
     color:white;
 }
 #amazon{
@@ -233,4 +234,114 @@ html , body{
     transition:0.1s;
     cursor: pointer;
     box-shadow: 0px 0px 10px rgb(26, 149, 249);
+}
+#content{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width:100%;
+    height:80%;
+}
+#part1{
+    padding:80px 30px;
+    width:650px;
+    height:100%;
+    background-color: black;
+    box-shadow: 0px 0px 50px black;
+}
+#part1 h1{
+    color:white;
+    margin-left: 50px;
+    font-size:50px;
+}
+#part1 p{
+    margin-top:40px;
+    color:white;
+    margin-left:50px;
+    font-weight: bold;
+}
+#part1 button{
+    margin-top:50px;
+    width:220px;
+    height:60px;
+    background-color: white;
+    color:black;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-weight: 590;
+    border:transparent;
+    transition:0.1s;
+}
+#part1 button:hover{
+    transition:0.1s;
+    width:240px;
+    height:70px;
+    font-size:20px;
+    color:rgb(85, 85, 85);
+    cursor: pointer;
+}
+#part2{
+    width:650px;
+    height:100%;
+    background-color: rgb(61, 44, 12);
+    background-image: url("https://www.educationworld.in/wp-content/uploads/2020/03/Movies.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#rentals{
+    width:100%;
+    height:150%;
+    background-color: black;
+    padding:60px 30px;
+    display: flex;
+    align-items: center;
+}
+#detail{
+    margin-top: 150px;
+    padding:90px 10px;
+    width:700px;
+    height:70%;
+    background-color: black;
+    box-shadow: 0px 0px 50px black;
+}
+#detail h1{
+    color:white;
+    margin-left: 30px;
+    font-size:50px;
+}
+#detail p{
+    margin-top:40px;
+    color:white;
+    margin-left:30px;
+    font-size:19px;
+    font-weight: bold;
+}
+#detail button{
+    margin-top:50px;
+    width:140px;
+    height:60px;
+    background-color: white;
+    color:black;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-weight: 590;
+    border:transparent;
+    transition:0.1s;
+}
+#detail button:hover{
+    transition:0.1s;
+    width:150px;
+    height:70px;
+    font-size:20px;
+    color:rgb(85, 85, 85);
+    cursor: pointer;
+}
+#poster{
+    margin-top: 230px;
+    width:700px;
+    height:80%;
+    background-image: url("https://www.online-tech-tips.com/wp-content/uploads/2022/03/featured-image-2.jpg");
+    background-size: cover;
+    background-position: right;
+    border-radius: 10px;
 }
