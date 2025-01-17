@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html , body{
+    width:100%;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    padding:5px 15px;
+    width: 100%;
+    height:10%;
+    gap:20px;
+    background-color:rgb(16, 18, 28);
+    color:white;
+}
+#amazon{
+    font-size:20px;
+}
+#box1{
+    padding:12px 0px;
+    width:150px;
+    height:50px;
+    background-color:transparent;
+    text-align: center;
+    transition:0.1s;
+}
+#box1:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#box2{
+    font-size:13px;
+    color:white;
+    font-weight: bold;
+    border:transparent;
+    width:80px;
+    height:40px;
+    text-align: center;
+    padding:10px 0px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+#box2:hover{
+    transition:0.1s;
+    background-color: white;
+    color:black;
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+#box3{
+    font-size:13px;
+    color:white;
+    font-weight: bold;
+    border:transparent;
+    width:80px;
+    height:40px;
+    text-align: center;
+    padding:10px 0px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+#box3:hover{
+    transition:0.1s;
+    background-color: white;
+    color:black;
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+#box4{
+    font-size:13px;
+    color:white;
+    font-weight: bold;
+    border:transparent;
+    width:80px;
+    height:40px;
+    text-align: center;
+    padding:10px 0px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+#box4:hover{
+    transition:0.1s;
+    background-color: white;
+    color:black;
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+#box5{
+    font-size:13px;
+    color:white;
+    font-weight: bold;
+    border:transparent;
+    width:80px;
+    height:40px;
+    text-align: center;
+    padding:10px 0px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+#box5:hover{
+    transition:0.1s;
+    background-color: white;
+    color:black;
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+#box6{
+    width:2px;
+    height:30px;
+    background-color: gray;
+}
+#box7{
+    display: flex;
+    font-size:13px;
+    color:white;
+    font-weight: bold;
+    border:transparent;
+    width:135px;
+    height:40px;
+    text-align: center;
+    padding:10px 10px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+#box7 i{
+    margin-right: 3px;
+}
+#box7:hover{
+    transition:0.1s;
+    background-color: white;
+    color:black;
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+#box8{
+    color:white;
+    font-weight: bold;
+    border:transparent;
+    width:50px;
+    height:40px;
+    text-align: center;
+    padding:9px 0px;
+    border-radius: 150%;
+    transition: 0.1s;
+    margin-left:100px;
+}
+#box8 span{
+    font-size:20px;
+}
+#box8:hover{
+    transition:0.1s;
+    background-color: white;
+    color:black;
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+#nav select{
+    font-weight: bold;
+    height:40px;
+    width:70px;
+    font-size:12px;
+    padding:0px 5px;
+    background-color: transparent;
+    border: transparent;
+    color:white;
+    transition:0.1s;
+    border-radius: 10px;
+}
+#nav select:hover{
+    transition:0.1s;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+}
+#box9{
+    margin-left: -10px;
+}
+#box10{
+    padding:10px 0px;
+    height:40px;
+    width:40px;
+    text-align: center;
+    border-radius: 100px;
+    border:transparent;
+    transition:0.1s;
+}
+#box10:hover{
+    transition:0.1s;
+    background-color: white;
+    color:black;
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+#box11{
+    width:40px;
+    height:40px;
+    border:transparent;
+    border-radius: 100px;
+    transition:0.1s;
+}
+#box11:hover{
+    transition:0.1s;
+    border:2px solid white;
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+#box11 img{
+    width:100%;
+    height:100%;
+    border-radius: 100px;
+}
+#box12{
+    width:100px;
+    height:40px;
+    background-color: rgb(26, 149, 249);
+    font-size:15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    padding:12px 0px;
+    box-shadow: 0px 0px 2px rgb(26, 149, 249);
+    transition: 0.1s;
+    margin-left: 10px;
+    border: transparent;
+}
+#box12:hover{
+    transition:0.1s;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(26, 149, 249);
+}
