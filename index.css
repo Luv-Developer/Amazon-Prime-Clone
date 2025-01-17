@@ -284,9 +284,10 @@ html , body{
     margin-top: 20px;
     width:650px;
     height:100%;
-    background-image: url("https://www.educationworld.in/wp-content/uploads/2020/03/Movies.jpg");
-    background-position: center;
+    background-image: url("https://assets.aboutamazon.com/2d/49/abd3719b41aea4605bb51e4d8d72/subs-pre-order-consent-background-image-cb578173463.jpg");
+    background-position: right;
     background-size: cover;
+    border-radius: 10px;
 }
 #rentals{
     width:100%;
